@@ -57,7 +57,7 @@
 }
 .hero{
     background-color: rgba(255, 144, 14, 0.1);
-    height: 100vh;
+    height: auto;
 }
 .hero-desc{
     font-style: normal;
@@ -90,6 +90,7 @@
     height: 60vh;
     margin: 0 auto;
     margin-top: 40px;
+    padding-bottom: 20px;
 }
 .features{
     display: flex;
@@ -99,10 +100,10 @@
     padding: 20px 10px;
     margin-top: 20px;
 }
-.features{
+/* .features{
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
+} */
 .features-imgs img{
     width: 300px;
     height: 300px;
@@ -381,5 +382,4 @@
     /* Dark 02 */
 
     color: #424242;
-
 }
