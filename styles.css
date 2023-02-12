@@ -161,3 +161,188 @@
     margin-top: 20px;
     width: 185px;
 }
+.experience{
+    display: flex;
+    justify-content:center;
+    width: 80vw;
+    margin: 0 auto;
+    padding: 20px 10px;
+    margin-top: 20px;
+}
+.experience-heading{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    width: 468px;
+    /* Dark 01 */
+
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+.experience-heading-desc{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    width: 586px;
+    margin-bottom: 15px;
+    /* Dark 03 */
+
+    color: #727272;
+}
+.experience-card{
+    width: 586px;
+    padding: 10px;
+    margin-bottom: 20px ;
+}
+.experience-card-heading{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+
+    /* Dark 01 */
+    margin-bottom: 10px;
+    color: #131313;
+}
+.experience-card-desc{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+
+    /* Dark 03 */
+
+    color: #727272;
+}
+.second-box{
+    position: relative;
+}
+.experience-bg{
+    border-radius: 8px;
+    margin-left: 120px;
+    height: 700px;
+}
+.experience-box{
+    position: absolute;
+    width: 280px;
+    height: 175px;
+    left: 20px;
+    bottom: -50px;
+    background: #FF900E;
+    border-radius: 8px;
+    z-index: 2;
+}
+.experience-box h4{
+    font-style: normal;
+    font-weight: 700;
+    
+    line-height: 30px;
+    /* or 108% */
+    padding: 55px 20px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.bolder{
+    font-size: 40px;
+}
+.facts{
+    margin: 100px 180px;
+}
+.facts-heading{
+    margin-bottom: 70px;
+}
+.facts-heading h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    /* identical to box height */
+    color: #131313;
+    margin-bottom: 20px;
+}
+.facts-heading-desc{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    width: 542px;
+
+    /* Dark 03 */
+    margin-bottom: 40px;
+    color: #727272;
+
+}
+.facts-card-box{
+    margin: 0px 50px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.facts-card{
+    /* display: flex; */
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 241.83px;
+    height: 241.83px;
+    padding: 50px 0px;
+}
+.facts-card h4{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    /* identical to box height */
+
+
+    /* Dark 02 */
+
+    color: #424242;
+}
+.facts-card p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+
+    /* Dark 03 */
+
+    color: #727272;
+}
+.sponsor-heading h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    /* identical to box height */
+
+
+    /* Dark 01 */
+
+    color: #131313;
+}
+
+.sponsor-heading p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    width: 542px;
+    text-align: center;
+
+    /* Dark 03 */
+
+    color: #727272;
+}
